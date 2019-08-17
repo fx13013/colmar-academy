@@ -41,7 +41,72 @@ nav a{
 
 #navbar a{
     padding: 1rem 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #4a4a4a;
     font-weight: bold;
+}
+/*
+
+ /$$                                 /$$                    
+| $$                                | $$                    
+| $$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$ 
+| $$__  $$ /$$__  $$ |____  $$ /$$__  $$ /$$__  $$ /$$__  $$
+| $$  \ $$| $$$$$$$$  /$$$$$$$| $$  | $$| $$$$$$$$| $$  \__/
+| $$  | $$| $$_____/ /$$__  $$| $$  | $$| $$_____/| $$      
+| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$      
+|__/  |__/ \_______/ \_______/ \_______/ \_______/|__/      
+                                                            
+                                                            
+                                                            
+
+*/
+.home{
+    display: flex;
+    padding: 2rem 1.6rem;
+    padding-top: 2rem;
+    background-color: lightgray;
+}
+
+.home figure{
+    width: 58%;
+    margin-right: 3rem;
+}
+
+.home figure img{
+    width: 100%;
+}
+
+.home article{
+    width: 32%;
+    padding-top: 7rem;
+}
+
+.home article h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #4a4a4a;
+    font-size: 2.2rem;
+    font-weight: bold;
+    width: 70%;
+    line-height: 2.6rem;
+    margin-bottom: 3.5rem;
+}
+
+.home article p{
+    font-family: 'Open Sans', sans-serif;
+    color: #4a4a4a;
+    width: 70%;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin-bottom: 3.5rem;
+}
+
+.home article a{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: block;
+    width: 70%;
+    padding: 1rem 0;
+    background-color: #4a4a4a;
+    color: white;
+    text-decoration: none;
 }
