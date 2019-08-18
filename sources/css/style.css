@@ -335,7 +335,7 @@ $$$$$$$  |  \$$$$  |\$$$$$$$ |$$ |       \$$$$  |      $$ |\$$$$$$$\ \$$$$$$$ |$
     width: 42%;
 }
 
-img[alt="thesis"]{
+img[alt="thesis"], img[alt="now-and-then"]{
     width: 35%;
     padding: 1rem;
 }
