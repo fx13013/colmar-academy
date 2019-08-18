@@ -125,7 +125,7 @@ nav a{
 }
 
 .information{
-    width: 61%;
+    width: 59%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 1.6rem;
@@ -137,7 +137,7 @@ img[alt="information"]{
     margin-bottom: 2rem;
 }
 
-.information figcaption h2{
+.information figcaption h2, .start h2{
     font-family: 'Open Sans', sans-serif;
     color: #4a4a4a;
     font-size: 2.1rem;
@@ -176,16 +176,22 @@ img[alt="orientation"], img[alt="campus"], img[alt="guest"]{
     padding-top: 3.4rem;
 }
 
-.orientation figcaption h3{
+.orientation figcaption h3, 
+.start-row1 figure figcaption h3, 
+.start-row1 figure figcaption h4,
+.start-row2 figure figcaption h3, 
+.start-row2 figure figcaption h4{
     font-family: 'Open Sans', sans-serif;
     color: #4a4a4a;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.orientation figcaption p{
+.orientation figcaption p, .start-row1 figure figcaption p, .start-row2 figure figcaption p{
     font-family: 'Open Sans', sans-serif;
+    color: #4a4a4a;
+    line-height: 1.2rem;
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
@@ -217,3 +223,54 @@ $$ |                                                                         \$$
 \__|                                                                          \______/ 
 
 */
+
+.start h2{
+    text-align: center;
+    background-color: lightgray;
+    padding: 3rem 0;
+}
+
+.start{
+    background-color: lightgray;
+    padding: 0 3rem;
+    padding-bottom: 2rem;
+}
+
+.start h2{
+    margin-bottom: inherit;
+}
+
+.start-row1, .start-row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.start-row1{
+    margin-bottom: 2rem;
+}
+
+.start-row1 figure, .start-row2 figure{
+    width: 32%;
+    background-color: white;
+}
+
+img[alt="software"], 
+img[alt="computer"], 
+img[alt="design"], 
+img[alt="data"], 
+img[alt="business"], 
+img[alt="marketing"]{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.start-row1 figure figcaption, .start-row2 figure figcaption{
+    padding-left: 1.5rem;
+    padding-right: 9rem;
+}
+
+.start-row1 figure figcaption h4, .start-row2 figure figcaption h4{
+    font-weight: inherit;
+    font-size: 1.2rem;
+}
