@@ -122,6 +122,7 @@ nav a{
 .practicing{
     display: flex;
     align-items: stretch;
+    background-color: whitesmoke;
 }
 
 .information{
@@ -137,7 +138,7 @@ img[alt="information"]{
     margin-bottom: 2rem;
 }
 
-.information figcaption h2, .start h2{
+.information figcaption h2, .start h2, .exhibit h2{
     font-family: 'Open Sans', sans-serif;
     color: #4a4a4a;
     font-size: 2.1rem;
@@ -180,7 +181,8 @@ img[alt="orientation"], img[alt="campus"], img[alt="guest"]{
 .start-row1 figure figcaption h3, 
 .start-row1 figure figcaption h4,
 .start-row2 figure figcaption h3, 
-.start-row2 figure figcaption h4{
+.start-row2 figure figcaption h4, 
+.urban figcaption h3, .items figcaption h3{
     font-family: 'Open Sans', sans-serif;
     color: #4a4a4a;
     font-size: 1.4rem;
@@ -188,7 +190,11 @@ img[alt="orientation"], img[alt="campus"], img[alt="guest"]{
     margin-bottom: 1rem;
 }
 
-.orientation figcaption p, .start-row1 figure figcaption p, .start-row2 figure figcaption p{
+.orientation figcaption p, 
+.start-row1 figure figcaption p, 
+.start-row2 figure figcaption p, 
+.urban figcaption p, 
+.items figcaption p{
     font-family: 'Open Sans', sans-serif;
     color: #4a4a4a;
     line-height: 1.2rem;
@@ -224,7 +230,7 @@ $$ |                                                                         \$$
 
 */
 
-.start h2{
+.start h2, .exhibit h2{
     text-align: center;
     background-color: lightgray;
     padding: 3rem 0;
@@ -273,4 +279,67 @@ img[alt="marketing"]{
 .start-row1 figure figcaption h4, .start-row2 figure figcaption h4{
     font-weight: inherit;
     font-size: 1.2rem;
+}
+/*
+
+            $$\                          $$\           $$\                                         $$\                     
+            $$ |                         $$ |          $$ |                                        \__|                    
+ $$$$$$$\ $$$$$$\    $$$$$$\   $$$$$$\ $$$$$$\         $$ | $$$$$$\   $$$$$$\   $$$$$$\  $$$$$$$\  $$\ $$$$$$$\   $$$$$$\  
+$$  _____|\_$$  _|   \____$$\ $$  __$$\\_$$  _|        $$ |$$  __$$\  \____$$\ $$  __$$\ $$  __$$\ $$ |$$  __$$\ $$  __$$\ 
+\$$$$$$\    $$ |     $$$$$$$ |$$ |  \__| $$ |          $$ |$$$$$$$$ | $$$$$$$ |$$ |  \__|$$ |  $$ |$$ |$$ |  $$ |$$ /  $$ |
+ \____$$\   $$ |$$\ $$  __$$ |$$ |       $$ |$$\       $$ |$$   ____|$$  __$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |$$ |  $$ |
+$$$$$$$  |  \$$$$  |\$$$$$$$ |$$ |       \$$$$  |      $$ |\$$$$$$$\ \$$$$$$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |\$$$$$$$ |
+\_______/    \____/  \_______|\__|        \____/       \__| \_______| \_______|\__|      \__|  \__|\__|\__|  \__| \____$$ |
+                                                                                                                 $$\   $$ |
+                                                                                                                 \$$$$$$  |
+                                                                                                                  \______/ 
+
+*/
+
+.exhibit{
+    background-color: whitesmoke;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.exhibit h2{
+    background-color: whitesmoke;
+    margin-bottom: inherit;
+}
+
+.exhibit div{
+    display: flex;
+}
+
+.urban{
+    width: 60%;
+    margin-right: 2.2rem;
+}
+
+.urban video{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.items{
+    display: flex;
+    background-color: lightgray;
+}
+
+.items:last-child{
+    background-color: whitesmoke;
+}
+
+.outside{
+    width: 42%;
+}
+
+img[alt="thesis"]{
+    width: 35%;
+    padding: 1rem;
+}
+
+.items figcaption{
+    padding-top: 4rem;
 }
