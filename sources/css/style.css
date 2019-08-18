@@ -55,10 +55,7 @@ nav a{
 | $$  | $$| $$_____/ /$$__  $$| $$  | $$| $$_____/| $$      
 | $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$      
 |__/  |__/ \_______/ \_______/ \_______/ \_______/|__/      
-                                                            
-                                                            
-                                                            
-
+                                                                                                          
 */
 .home{
     display: flex;
@@ -84,7 +81,7 @@ nav a{
 .home article h1{
     font-family: 'Open Sans', sans-serif;
     color: #4a4a4a;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: bold;
     width: 70%;
     line-height: 2.6rem;
@@ -110,3 +107,113 @@ nav a{
     color: white;
     text-decoration: none;
 }
+/*
+
+ /$$                                        
+| $$                                        
+| $$$$$$$   /$$$$$$  /$$$$$$/$$$$   /$$$$$$ 
+| $$__  $$ /$$__  $$| $$_  $$_  $$ /$$__  $$
+| $$  \ $$| $$  \ $$| $$ \ $$ \ $$| $$$$$$$$
+| $$  | $$| $$  | $$| $$ | $$ | $$| $$_____/
+| $$  | $$|  $$$$$$/| $$ | $$ | $$|  $$$$$$$
+|__/  |__/ \______/ |__/ |__/ |__/ \_______/                                         
+                                        
+*/
+.practicing{
+    display: flex;
+    align-items: stretch;
+}
+
+.information{
+    width: 61%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.6rem;
+    margin-right: 2rem;
+}
+
+img[alt="information"]{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.information figcaption h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #4a4a4a;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.information figcaption p{
+    color: gray;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.information figcaption blockquote{
+    color: gray;
+}
+
+.orientation-date{
+    width: 42%;
+    padding-top: 2rem;
+    border-left: 1px solid lightgray;
+}
+
+.orientation{
+    display: flex;
+}
+
+img[alt="orientation"], img[alt="campus"], img[alt="guest"]{
+    width: 35%;
+    margin-right: 1.7rem;
+}
+
+.orientation figcaption{
+    width: 65%;
+    padding-top: 3.4rem;
+}
+
+.orientation figcaption h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #4a4a4a;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.orientation figcaption p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.orientation figcaption a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.orientation:last-child{
+    background-color: lightgray;
+}
+
+.orientation:first-child{
+    border-bottom: 3px solid lightgray;
+}
+
+/*
+                                         $$\     $$\           $$\                     
+                                         $$ |    \__|          \__|                    
+ $$$$$$\   $$$$$$\  $$$$$$\   $$$$$$$\ $$$$$$\   $$\  $$$$$$$\ $$\ $$$$$$$\   $$$$$$\  
+$$  __$$\ $$  __$$\ \____$$\ $$  _____|\_$$  _|  $$ |$$  _____|$$ |$$  __$$\ $$  __$$\ 
+$$ /  $$ |$$ |  \__|$$$$$$$ |$$ /        $$ |    $$ |$$ /      $$ |$$ |  $$ |$$ /  $$ |
+$$ |  $$ |$$ |     $$  __$$ |$$ |        $$ |$$\ $$ |$$ |      $$ |$$ |  $$ |$$ |  $$ |
+$$$$$$$  |$$ |     \$$$$$$$ |\$$$$$$$\   \$$$$  |$$ |\$$$$$$$\ $$ |$$ |  $$ |\$$$$$$$ |
+$$  ____/ \__|      \_______| \_______|   \____/ \__| \_______|\__|\__|  \__| \____$$ |
+$$ |                                                                         $$\   $$ |
+$$ |                                                                         \$$$$$$  |
+\__|                                                                          \______/ 
+
+*/
