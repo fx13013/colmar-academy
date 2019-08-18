@@ -194,7 +194,7 @@ img[alt="orientation"], img[alt="campus"], img[alt="guest"]{
 .start-row1 figure figcaption p, 
 .start-row2 figure figcaption p, 
 .urban figcaption p, 
-.items figcaption p{
+.items figcaption p, footer p, footer a{
     font-family: 'Open Sans', sans-serif;
     color: #4a4a4a;
     line-height: 1.2rem;
@@ -342,4 +342,28 @@ img[alt="thesis"]{
 
 .items figcaption{
     padding-top: 4rem;
+}
+/*
+  __      __                            __                                      __        __  __        __    __     
+  |  \    |  \                          |  \                                    |  \      |  \|  \      |  \  |  \    
+ _| $$_   | $$____    ______    _______  \$$  _______         ______   __    __ | $$____   \$$| $$____   \$$ _| $$_   
+|   $$ \  | $$    \  /      \  /       \|  \ /       \       /      \ |  \  /  \| $$    \ |  \| $$    \ |  \|   $$ \  
+ \$$$$$$  | $$$$$$$\|  $$$$$$\|  $$$$$$$| $$|  $$$$$$$      |  $$$$$$\ \$$\/  $$| $$$$$$$\| $$| $$$$$$$\| $$ \$$$$$$  
+  | $$ __ | $$  | $$| $$    $$ \$$    \ | $$ \$$    \       | $$    $$  >$$  $$ | $$  | $$| $$| $$  | $$| $$  | $$ __ 
+  | $$|  \| $$  | $$| $$$$$$$$ _\$$$$$$\| $$ _\$$$$$$\      | $$$$$$$$ /  $$$$\ | $$  | $$| $$| $$__/ $$| $$  | $$|  \
+   \$$  $$| $$  | $$ \$$     \|       $$| $$|       $$       \$$     \|  $$ \$$\| $$  | $$| $$| $$    $$| $$   \$$  $$
+    \$$$$  \$$   \$$  \$$$$$$$ \$$$$$$$  \$$ \$$$$$$$         \$$$$$$$ \$$   \$$ \$$   \$$ \$$ \$$$$$$$  \$$    \$$$$                                                                                                                      
+                                                                                                                                                                 
+*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1.6rem;
+    background-color: whitesmoke;
+}
+
+footer a{
+    padding: 0 0.5rem;
 }
