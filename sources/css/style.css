@@ -499,6 +499,8 @@ footer a{
         flex-wrap: wrap;
         background-color: whitesmoke;
         padding: inherit;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 2rem;
     }
 
     .start-row1, .start-row2{
@@ -512,7 +514,7 @@ footer a{
         background-color: whitesmoke;
     }
 
-    .start h2{
+    .start h2, .exhibit h2{
         padding: 2.5rem 0;
         background-color: whitesmoke;
         font-size: 2.2rem;
@@ -540,4 +542,33 @@ footer a{
         display: none;
     }
 
+    .outside{
+        display: none;
+    }
+
+    .exhibit{
+        padding: inherit;
+    }
+
+    .urban{
+        width: 100%;
+        margin-right: inherit;
+    }
+
+    .urban video{
+        margin-bottom: inherit;
+    }
+
+    .urban figcaption{
+        display: none;
+    }
+
+    footer nav{
+        display: none;
+    }
+
+    footer{
+        padding-bottom: 0.5rem;
+        padding-top: 3rem;
+    }
 }
