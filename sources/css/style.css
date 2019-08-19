@@ -419,12 +419,13 @@ footer a{
     .home article{
         padding: 1rem 1rem;
         padding-bottom: 2rem;
+        width: 90%;
     }
 
     .home article a, 
     .home article h1,
     .home article p{
-        width: 90%;
+        width: 100%;
     }
 
     .home article h1{
