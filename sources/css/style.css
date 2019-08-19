@@ -367,3 +367,92 @@ footer{
 footer a{
     padding: 0 0.5rem;
 }
+/*
+
+  /$$$$$$                      /$$                        
+ /$$__  $$                    | $$                        
+| $$  \__//$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$ 
+| $$$$   /$$__  $$ /$$__  $$|_  $$_/   /$$__  $$ /$$__  $$
+| $$_/  | $$  \ $$| $$  \ $$  | $$    | $$$$$$$$| $$  \__/
+| $$    | $$  | $$| $$  | $$  | $$ /$$| $$_____/| $$      
+| $$    |  $$$$$$/|  $$$$$$/  |  $$$$/|  $$$$$$$| $$      
+|__/     \______/  \______/    \___/   \_______/|__/                                                                                                                                                                            
+*/
+
+.mobile{
+    display: none;
+}
+
+.img-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 360px){
+    #colmar, #navbar{
+        display: none;
+    }
+
+    header{
+        display: inherit;
+    }
+
+    .mobile{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: stretch;
+        padding-top: 0.7rem;
+    }
+
+    .mobile a img{
+        width: 140%;
+    }
+
+    .home{
+        flex-direction: column;
+        padding: 0 0;
+    }
+
+    .home figure{
+        width: 100%;
+    }
+
+    .home article{
+        padding: 1rem 1rem;
+    }
+
+    .home article{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .home article a, 
+    .home article h1,
+    .home article p{
+        width: 90%;
+    }
+
+    .home article h1{
+        font-size: 2.2rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .home article p{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .information{
+        display: none;
+    }
+
+    .orientation-date{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .orientation{
+        flex-wrap: wrap;
+    }
+
+}
