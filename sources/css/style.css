@@ -455,4 +455,41 @@ footer a{
         flex-wrap: wrap;
     }
 
+    img[alt="orientation"], 
+    img[alt="campus"], 
+    img[alt="guest"]{
+        display: none;
+    }
+
+    .img-mobile{
+        display: block;
+    }
+
+    .img-mobile img{
+        width: 100%;
+    }
+
+    .orientation figcaption{
+        width: 100%;
+        padding-top: 1.5rem;
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .orientation figcaption h3{
+        font-size: 1.6rem;
+    }
+
+    .orientation figcaption p,
+    .orientation figcaption a{
+        font-size: 1.1rem;
+    }
+
+    .orientation:first-child{
+        border-bottom: inherit;
+    }
+
+    .orientation:last-child{
+        background-color: inherit;
+    }
 }
