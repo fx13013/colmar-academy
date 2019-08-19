@@ -432,7 +432,7 @@ footer a{
     }
 
     .home article h1{
-        font-size: 2.2rem;
+        font-size: 2.3rem;
         line-height: 3rem;
         margin-bottom: 2rem;
     }
@@ -449,6 +449,7 @@ footer a{
     .orientation-date{
         width: 100%;
         padding: 1rem;
+        padding-bottom: 0;
     }
 
     .orientation{
@@ -491,5 +492,52 @@ footer a{
 
     .orientation:last-child{
         background-color: inherit;
+        border-bottom: 1px solid lightgray;
     }
+
+    .start{
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        padding: inherit;
+    }
+
+    .start-row1, .start-row2{
+        margin-bottom: inherit;
+        padding: 0 1.6rem;
+        flex-direction: column;
+    }
+
+    .start-row1 figure, .start-row2 figure{
+        width: 100%;
+        background-color: whitesmoke;
+    }
+
+    .start h2{
+        padding: 2.5rem 0;
+        background-color: whitesmoke;
+        font-size: 2.2rem;
+    }
+
+    .start-row1 figure figcaption, .start-row2 figure figcaption{
+        padding: 0;
+    }
+
+    .start-row1 figure figcaption h3, .start-row2 figure figcaption h3{
+        margin-bottom: inherit;
+        font-size: 1.4rem;
+        padding: 1.2rem 0;
+        background-color: lightgray;
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .start-row1 figure img, 
+    .start-row1 figure figcaption h4, 
+    .start-row1 figure figcaption p, 
+    .start-row2 figure img, 
+    .start-row2 figure figcaption h4, 
+    .start-row2 figure figcaption p{
+        display: none;
+    }
+
 }
